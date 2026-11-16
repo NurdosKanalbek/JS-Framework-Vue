@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-top: 0;
+  color: #777;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.completed {
+  color: #999;
+  text-decoration: line-through;
+}
+
+@media (max-width: 500px) {
+  .task-form {
+    flex-direction: column;
+  }
+}
